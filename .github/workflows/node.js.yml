@@ -19,6 +19,7 @@ jobs:
           whoami
           pwd
           cd /var/www/mywebsite/_work/react_node_cicd/react_node_cicd/frontend
+          pwd
           npm i
           npm run build
           cd ..
