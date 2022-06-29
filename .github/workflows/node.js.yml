@@ -20,7 +20,7 @@ jobs:
           pwd
           cd /var/www/mywebsite/_work/react_node_cicd/react_node_cicd/frontend
           pwd
-          npm i
+          npm install
           npm run build
           cd ..
           pm2 stop 0
