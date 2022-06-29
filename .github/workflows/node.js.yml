@@ -21,4 +21,5 @@ jobs:
           npm install
           npm run build
           cd ..
+          pm2 start
           pm2 reload all
