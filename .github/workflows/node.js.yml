@@ -16,9 +16,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: |
-          pm2 stop 0
+          npm install  
           cd /var/www/mywebsite/_work/react_node_cicd/react_node_cicd/frontend
-          pwd
           npm install
           npm run build
           cd ..
